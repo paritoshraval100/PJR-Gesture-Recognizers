@@ -13,8 +13,9 @@ So you can call this method by single line of code.
 
 3) Create an object of PJRGestureRecognizers like
 
- 	**PJRGestureRecognizers *gesture = [[PJRGestureRecognizers alloc] init];**
-    	**gesture.delegate = self;**
+ 	PJRGestureRecognizers *gesture = [[PJRGestureRecognizers alloc] init];
+
+    	gesture.delegate = self;
 
 4) Call methods like
 
